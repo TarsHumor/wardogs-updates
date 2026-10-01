@@ -1,0 +1,72 @@
+{
+  "latest": {
+    "version": "0.1.2",
+    "title": "Maintenance Window + Update 0.1.2",
+    "date": "2026-10-01",
+    "summary": "Minor update aimed at fixing XP & cash exploits, improving security, resolving WD-L020 crash error, and adding UI improvements to highlight Infantry Mode and Low-Level servers.",
+    "sections": [
+      {
+        "header": "Windows 11 'WD-L020' Crash Error Fix",
+        "details": [
+          "Fixed the issue caused by Windows 11 update KB5124010 that triggered WD-L020 crashes."
+        ]
+      },
+      {
+        "header": "Cash & XP Gain Exploits Fixed",
+        "details": [
+          "Revive action validity checks are now fully server authoritative.",
+          "Fixed vehicle fly-through exploit; rewards are now capped.",
+          "Rewards for destroying buildables now scale with build progress.",
+          "Depositing pallets into a FOB outside the zone now awards reduced rewards.",
+          "Players caught abusing XP/cash exploits or RMT have had progression reset and risk permanent bans."
+        ]
+      },
+      {
+        "header": "Server Browser & Minor UI Improvements",
+        "details": [
+          "New 'DEPLOY' UX flow highlighting Official, Community, Infantry Mode, and Low-Level servers.",
+          "Advanced Filters added back to Official servers.",
+          "Long server names no longer truncated; hover to view full name.",
+          "Join screen now shows connection status and queue position.",
+          "Anonymous mode hides server name on loading and pause screens.",
+          "Region select now shows number of selected regions.",
+          "Gamepad support added to DEPLOY selection screen."
+        ]
+      },
+      {
+        "header": "Community Servers (Admin Features)",
+        "details": [
+          "Scheduled restarts: daily restart time (UTC) can now be set.",
+          "RCON AllowedHosts now restricts who can access RCON.",
+          "RCON message and broadcast lengths capped.",
+          "RCON defaults to Standard response detail.",
+          "ServerImageURL is now validated on config load."
+        ]
+      },
+      {
+        "header": "Server Stability Improvements",
+        "details": [
+          "Various server stability hotfixes.",
+          "Increased server security to prevent exploitation."
+        ]
+      },
+      {
+        "header": "Bug Fixes",
+        "details": [
+          "Throwables can no longer be used from enclosed vehicle seats.",
+          "Adaptive crosshair now hides correctly while aiming.",
+          "Buildable crit spots now behave consistently and remain reachable.",
+          "Fixed Havoc bug causing increased damage from 20mm and 30mm cannon fire.",
+          "Improved localisation translations."
+        ]
+      },
+      {
+        "header": "Looking Toward Season 02",
+        "details": [
+          "Season 02 will include new map conditions, equipment, balance reworks, and additional features.",
+          "More information dropping next week."
+        ]
+      }
+    ]
+  }
+}
