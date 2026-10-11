@@ -1,33 +1,137 @@
 {
-  "latest": {
-    "version": "0.1.5",
-    "title": "IR Goggles & CWIS Balance Hotfix",
-    "summary": "Two key balance changes have been deployed. No client download or downtime required.",
-    "sections": [
-      {
-        "header": "IR Rangefinders",
-        "details": [
-          "IR Rangefinders will be disabled in the vendor within the next 12 hours.",
-          "They will return in Season 02 and require batteries to operate.",
-          "Developer sentiment agrees they were too overpowered in their current state."
+  "title": "WARDOGS | Season 02 Preview",
+  "posted": "Fri, October 9",
+  "sections": {
+    "intro": {
+      "devlog": "Season 01 recap + Season 02 preview VLOG released",
+      "summary": "Season 01 is ending; developers thank players for 3+ million sales and continued support.",
+      "early_access_message": "Players are encouraged to return whenever they want; no obligation to stay during early development."
+    },
+
+    "season_2_content": {
+      "weapons": [
+        { "name": "TCX Spear", "type": "Assault Rifle" },
+        { "name": "M14", "type": "DMR" },
+        { "name": "PP-19 Bizon", "type": "SMG" },
+        { "name": "Evo-3 Ultra", "type": "LMG" }
+      ],
+      "attachments": "A range of new attachments supported.",
+      "throwables": [
+        {
+          "name": "Molotov",
+          "description": "Thrown incendiary that splashes fire on impact for area denial; can be thrown overarm or underarm."
+        }
+      ],
+      "vehicles": [
+        { "name": "Wolf-110", "description": "Fast, light wheeled transport." },
+        { "name": "Wolf-110 (Assault)", "description": "Wolf-110 with ring-mounted M2 Browning." },
+        { "name": "T-72", "description": "Main battle tank; slower than Leopard, cheaper and fuel-efficient." },
+        { "name": "Flakpanzer Gepard", "description": "Anti-air vehicle." }
+      ],
+      "buildables": [
+        { "name": "MG Nest", "description": "Manned M2 Browning emplacement." },
+        { "name": "Large Shelter", "description": "Large metal shelter for assets or weather protection." },
+        { "name": "Wooden Step", "description": "A step made of wood." }
+      ],
+      "weather": {
+        "preset": "Rain",
+        "effects": [
+          "Changes visibility",
+          "Changes engagement ranges",
+          "Changes sound",
+          "Interacts with damaged/destroyed structures",
+          "Thunder synchronized across server and can mask footsteps"
         ]
       },
-      {
-        "header": "CWIS Adjustments",
-        "details": [
-          "CWIS now destroys the Havoc in ~6 seconds instead of ~12.",
-          "This corrects an over‑nerf introduced in the previous patch.",
-          "Hotfix applied immediately across all regions."
-        ]
-      },
-      {
-        "header": "General",
-        "details": [
-          "No client update required.",
-          "No server downtime required.",
-          "Changes will apply automatically after regional restarts."
-        ]
+      "wager_vendor": {
+        "description": "Experimental Early Access feature allowing players to bet on their own performance.",
+        "details": {
+          "mechanics": [
+            "Choose objectives",
+            "Set allowed deaths",
+            "Set stake",
+            "Stack objectives for longer odds and bigger payout"
+          ],
+          "tracker": "Live wager tracker above minimap",
+          "notes": "Feature may be removed mid-season if too exploitable."
+        }
       }
-    ]
+    },
+
+    "balance_updates": {
+      "infrared_rangefinder": "Now runs on batteries.",
+      "helmets": {
+        "super_heavy": [
+          "Muffled audio",
+          "Restricted field of view",
+          "Fogging while sprinting"
+        ],
+        "heavy_and_super_heavy": [
+          "Increased suppression resistance"
+        ]
+      },
+      "combat": "Weapon damage, recoil, suppression adjustments to clarify class roles.",
+      "gameplay_improvements": [
+        "Squad coordination",
+        "Vehicle handling",
+        "Controller responsiveness",
+        "Progression",
+        "Teamplay & logistics rewards",
+        "Performance optimisations",
+        "Bug fixes",
+        "Server stability"
+      ]
+    },
+
+    "faction_balance": {
+      "context": "Lonestar has lowest win rate; sentiment is major factor.",
+      "changes": [
+        "All faction spawns moved on Bakurani",
+        "Lonestar uniforms more desaturated",
+        "Lonestar cash & XP win bonus (Season 2 only)",
+        "Lonestar cash & XP multipliers (Season 2 only)",
+        "Vendor discount: 20% off for losing team if ≥40 points behind second place"
+      ],
+      "rules": "Community server hosts exploiting faction bonus will be punished."
+    },
+
+    "press_conference": {
+      "description": "First-ever pre-season press conference with press and creators.",
+      "purpose": [
+        "Improve communication",
+        "Increase reach",
+        "Provide long-form rationale for decisions"
+      ],
+      "formats_supported": [
+        "Official Trailers",
+        "Official VLOGs",
+        "Press Conferences",
+        "Official Podcast (in progress)",
+        "Social Accounts (Discord, X, Instagram, TikTok, Facebook)",
+        "X Developer Accounts"
+      ],
+      "note": "Pilot episode; feedback requested."
+    },
+
+    "awards": {
+      "golden_joystick_nomination": "Best Early Access Game of 2026",
+      "vote_link": "goldenjoysticks.com"
+    },
+
+    "clip_contest": {
+      "extension": "24-hour extension",
+      "tags": "#WARDOGS100K",
+      "submission_site": "www.wardogs100k.com",
+      "prizes": "Top 100 clips + $100,000 grand prize"
+    },
+
+    "patch_notes": {
+      "full_notes_release": "Early next week",
+      "season_2_trailer": "Releases with patch notes",
+      "top_100k_premiere": "On BULKHEAD YouTube channel"
+    },
+
+    "release_date": "October 15, 2026",
+    "closing": "Thank you. // WARDOGS Team"
   }
 }
