@@ -2,7 +2,8 @@
   "latest": {
     "version": "1.6",
     "title": "WARDOGS | Season 02 Preview",
-    "summary": "Season 02 brings new weapons, vehicles, weather systems, balance changes, faction adjustments, and more.",
+    "date": "2026-10-09",
+    "summary": "Season 02 introduces new weapons, vehicles, weather systems, wager mechanics, balance updates, faction adjustments, press conference features, awards, contests, and more.",
     "sections": [
       {
         "header": "Intro",
@@ -66,4 +67,74 @@
         ]
       },
       {
-        "header":
+        "header": "Balance Updates",
+        "details": [
+          "Infrared rangefinder now uses batteries",
+          "Super heavy helmets: muffled audio, restricted FOV, fogging",
+          "Heavy/super heavy helmets: increased suppression resistance",
+          "Weapon damage, recoil, suppression adjustments",
+          "Improved squad coordination, vehicle handling, controller responsiveness",
+          "Progression, teamplay, logistics rewards improved",
+          "Performance optimisations, bug fixes, server stability"
+        ]
+      },
+      {
+        "header": "Faction Balance",
+        "details": [
+          "Lonestar lowest win rate; sentiment major factor",
+          "All faction spawns moved on Bakurani",
+          "Lonestar uniforms more desaturated",
+          "Lonestar cash & XP win bonus (Season 2 only)",
+          "Lonestar multipliers (Season 2 only)",
+          "Vendor discount: 20% off for losing team if 40+ points behind"
+        ]
+      },
+      {
+        "header": "Press Conference",
+        "details": [
+          "First-ever pre-season press conference",
+          "Improves communication and reach",
+          "Provides long-form rationale for decisions",
+          "Supports trailers, VLOGs, press conferences, podcasts, social accounts"
+        ]
+      },
+      {
+        "header": "Awards",
+        "details": [
+          "Golden Joystick nomination: Best Early Access Game 2026",
+          "Vote at goldenjoysticks.com"
+        ]
+      },
+      {
+        "header": "Clip Contest",
+        "details": [
+          "24-hour extension",
+          "Tags: #WARDOGS100K",
+          "Submit at wardogs100k.com",
+          "Prizes: Top 100 clips + $100,000 grand prize"
+        ]
+      },
+      {
+        "header": "Patch Notes",
+        "details": [
+          "Full notes release early next week",
+          "Season 2 trailer releases with patch notes",
+          "Top 100k premiere on BULKHEAD YouTube channel"
+        ]
+      },
+      {
+        "header": "Release Date",
+        "details": [
+          "October 15, 2026"
+        ]
+      },
+      {
+        "header": "Closing",
+        "details": [
+          "Thank you. // WARDOGS Team"
+        ]
+      }
+    ]
+  }
+}
+
